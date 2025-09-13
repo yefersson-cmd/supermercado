@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: #0f0; */
+    color: rgb(38, 207, 38);
+    /* box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif; */
+}
+.navegacion h1{
+    margin:auto;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+/* encabezado */
+
+
+
+.navegacion{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    z-index: 888;
+    justify-content: center;
+    background: linear-gradient(to right,#ccc,#fff,#0f0);
+}
+.navegacion ul{
+    display: flex;
+    margin: auto;
+    flex-direction:row;
+
+}
+.navegacion ul li{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+
+
+}
+a{
+    text-decoration: none;
+    font-size:20px ;
+    padding: 0 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+a:hover{
+    color: rgb(7, 7, 7);
+
+
+}
+/*contenedor de la pagina */
+.carousel{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 55rem;
+    padding: auto;
+
+}
+img {
+    width: 1500px;
+    height: 550px;
+    object-fit: cover;
+
+}
+.carousel-inner{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+    margin-top: 0px;
+
+}
+
+
+.card{
+    margin:50px;
+    box-shadow: 12px 10px 20px #0c0b0b;
+    margin-top: auto;
+    background-color: #0f0;
+    border:1px solid #ccc;
+    padding: 10px;
+    align-items: center;
+    /* gap: 20px; */
+    /* justify-content: space-between; */
+    /* display: flex; */
+    display: grid;              /* Activamos grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crea columnas de al menos 200px de ancho */
+    /* gap: 20px; */
+    justify-content: center;
+    text-align: center;
+
+
+}
+.card-body{
+    margin-top: auto;
+}
+
+
+.card img{
+    height: 100%;
+    width: 18rem;
+    position: relative;
+    /* padding: px; */
+}
+
+
+
+
+.container h2 {
+
+    display: flex;
+    position: relative;
+    margin-bottom: 2rem;
+    margin: auto;
+    justify-content: center;
+
+}
+footer{
+
+    background: linear-gradient(to right,#ccc,#fff,#0f0);
+    color: #000000;
+    height: 5rem;
+    text-align: center;
+
+}
+
